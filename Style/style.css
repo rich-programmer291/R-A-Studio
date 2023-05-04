@@ -226,7 +226,7 @@ body {
     /* INTRODUCTION SECTION */
     .navbar-brand {
         font-family: 'Josefin Sans', sans-serif;
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
         text-shadow: #434242 0px 2px 4px;
         justify-content: center;
@@ -234,21 +234,21 @@ body {
 
     .introduction-heading {
         font-weight: normal;
-        font-size: 2.7rem;
+        font-size: 3.5rem;
         color: var(--color-primary);
     }
 
     .introduction-text {
         font-weight: lighter;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: 'Source Sans Pro', sans-serif;
     }
 
     /* CAROUSEL DISPLAY SECTION */
 
     .display-img {
-        width: 420px;
-        height: 490px;
+        width: 450px;
+        height: 520px;
         object-fit: cover;
         border-radius: 20px;
         box-shadow: 0 2px 2px 2px;
