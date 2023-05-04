@@ -219,7 +219,7 @@ body {
 
 /* UPDATING MEDIA QUERIES AS PER DEVICES */
 /* breakpoints - for mobile (320px - 480px) and for laptops 769px - 1024px */
-@media screen and (min-width: 480px) and (orientation: portrait) {
+@media screen and (min-width: 480px) {
 
     /* INTRODUCTION SECTION */
     .navbar-brand {
