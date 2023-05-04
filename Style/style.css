@@ -35,7 +35,7 @@ body {
 }
 
 .introduction-box {
-    
+
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -117,7 +117,7 @@ body {
     height: auto;
 }
 
-#featuring{
+#featuring {
     background-image: url("top.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -132,12 +132,32 @@ body {
     font-size: 2.5rem;
     font-stretch: extra-expanded;
     text-shadow: rgb(17, 17, 17) 0 2px 4px;
-    text-decoration:dashed;
+    text-decoration: dashed;
 }
 
 .featured-box {
     padding: 3% 0;
 
+}
+
+.img-box {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+
+@media screen and (max-width: 2048px) {
+    .landscape {
+        width: 370px;
+        height: 280px;
+    }
+
+    .portrait {
+        width: 370px;
+        height: auto;
+    }
 }
 
 
@@ -148,14 +168,14 @@ body {
     font-stretch: ultra-expanded;
 }
 
-.card-img-top{
+.card-img-top {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    box-shadow: rgb(0,0,0) 0 2px 4px;
+    box-shadow: rgb(0, 0, 0) 0 2px 4px;
     border-radius: 2px;
 }
 
-.card-img-top:hover{
+.card-img-top:hover {
     border-radius: none;
     box-shadow: rgb(53, 52, 52) 0 8px 16px;
     transition: all .3s ease-in-out;
@@ -197,4 +217,65 @@ body {
     font-size: 0.8rem;
     font-weight: lighter;
     color: #fff;
+}
+
+/* UPDATING MEDIA QUERIES AS PER DEVICES */
+/* breakpoints - for mobile (320px - 480px) and for laptops 769px - 1024px */
+@media screen and (min-width: 480px) and (orientation: portrait) {
+
+    /* INTRODUCTION SECTION */
+    .navbar-brand {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.6rem;
+        text-align: center;
+        text-shadow: #434242 0px 2px 4px;
+        justify-content: center;
+    }
+
+    .introduction-heading {
+        font-weight: normal;
+        font-size: 2.3rem;
+        color: var(--color-primary);
+    }
+
+    .introduction-text {
+        font-weight: lighter;
+        font-size: 1.3rem;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    /* CAROUSEL DISPLAY SECTION */
+
+    .display-img {
+        width: 350px;
+        height: 420px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0 2px 2px 2px;
+        pointer-events: none;
+        /* background-color: var(--color-primary); */
+    }
+    
+    .display-box-heading {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: normal;
+        font-size: 1.8rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #f6f6f6;
+        font-stretch: expanded;
+        padding-top: 4%;
+        padding-bottom: none;
+    }
+    
+    .landscape {
+        width: 100%;
+        height: auto;
+    }
+
+    .portrait {
+        width: 100%;
+        height: auto;
+    }
 }
