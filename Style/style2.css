@@ -174,5 +174,15 @@ body {
      .checkout-link{
          font-size: 0.9rem;
      }
+    
+     .landscape {
+        width: 100%;
+        height: auto;
+    }
+
+    .portrait {
+        width: 100%;
+        height: auto;
+    }
 
 }
