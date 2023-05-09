@@ -1,0 +1,178 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('top.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.container-fluid {
+    padding: 2% 5%;
+
+}
+
+.navbar-brand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    text-shadow: #434242 0px 2px 4px;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 0% 2%;
+}
+
+.nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    font-weight: thin;
+    color: #000;
+}
+
+/* GALLERY CONTENT */
+
+#gallery{
+    /* background-image: url(bg2.jpeg); */
+    background-color: rgb(15, 15, 15);
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#gallery-content{
+    margin: 0;
+}
+
+.intro-text{
+    padding: 2.5% 0 0 0;
+    margin-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: rgb(37, 37, 37) 0 1px 2px;
+    font-stretch: extra-expanded;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Source Sans Pro';
+}
+
+.quote{
+   font-size: 1rem;
+}
+
+.checkout-link{
+    font-size: 1rem;
+}
+
+.checkout-link a{
+    color: white;
+    text-decoration: underline;
+}
+/* IMAGES */
+
+.landscape {
+    width: 370px;
+    height: 270px;
+}
+
+.portrait {
+    width: 370px;
+    height: 570px;
+}
+
+.card-img-top {
+    margin: 2.5% auto;
+    box-shadow: rgb(37, 37, 37) 0 2px 4px;
+    border-radius: 2px;
+    /* border: #4d4d4d 1px solid; */
+}
+
+.card-img-top:hover {
+    border-radius: none;
+    box-shadow: rgb(53, 52, 52) 0 8px 16px;
+    transition: all .3s ease-in-out;
+    filter: saturate(120%);
+    filter: drop-shadow(inherit);
+}
+
+/* END OF THE PAGE */
+
+#contact {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
+    /* background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%); */
+    padding: 2% 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-icons {
+    color: white;
+}
+
+.icons {
+    padding: 2% 3%;
+    font-size: 1.5rem;
+}
+
+.footer-note {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* FOOTER */
+
+#footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: #fff;
+}
+
+
+@media screen and (min-width: 480px) and (orientation: portrait) {
+
+    /* INTRODUCTION SECTION */
+    .navbar-brand {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        text-shadow: #434242 0px 2px 4px;
+        justify-content: center;
+        font-stretch: extra-expanded;
+    }
+
+    .introduction-heading {
+        font-weight: normal;
+        font-size: 2rem;
+        color: black;
+    }
+
+    .introduction-text {
+        font-weight: lighter;
+        font-size: 1.1rem;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .intro-text{
+        padding: 8% 0 0 0;
+        font-size: 1.1rem;
+        
+    }
+
+    .quote{
+        font-size: 0.9rem;
+     }
+     
+     .checkout-link{
+         font-size: 0.9rem;
+     }
+
+}
