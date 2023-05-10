@@ -132,7 +132,7 @@ body {
 }
 
 
-@media screen and (max-width: 640px) and (orientation: portrait) {
+@media screen and (min-width: 480px) and (orientation: portrait) {
 
     /* INTRODUCTION SECTION */
     .navbar-brand {
