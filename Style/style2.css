@@ -70,7 +70,7 @@ body {
 }
 /* IMAGES */
 
-.landscape {
+/* .landscape {
     width: 370px;
     height: 270px;
 }
@@ -78,6 +78,16 @@ body {
 .portrait {
     width: 370px;
     height: 570px;
+} */
+
+.landscape{
+    width: 100%;
+    height: auto;
+}
+
+.portrait{
+    width: 100%;
+    height: auto;
 }
 
 .card-img-top {
